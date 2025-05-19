@@ -1,5 +1,5 @@
 package com.ashish;
-
+// guess is a function defined in leetcode use accoding to that
 public class GuessNumberhigherOrLower {
     public static void main(String[] args) {
         int[] arr={2,4,6,7,8,9,11,13,15,17};
