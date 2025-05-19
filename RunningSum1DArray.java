@@ -8,6 +8,7 @@ public class RunningSum1DArray {
         int[] ans=runningSum(nums);
         System.out.println(Arrays.toString(ans));
     }
+
     static int[] runningSum(int[] nums) {
         if(nums==null || nums.length==0){
             return new int[0];

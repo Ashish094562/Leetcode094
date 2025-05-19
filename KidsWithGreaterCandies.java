@@ -11,6 +11,7 @@ public class KidsWithGreaterCandies {
         List<Boolean> ans = kidsWithCandies(candies,extraCandies);
         System.out.println(ans);
     }
+
     static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> res = new ArrayList<>();
         int max = 0;

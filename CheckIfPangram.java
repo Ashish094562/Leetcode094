@@ -7,6 +7,7 @@ public class CheckIfPangram {
         System.out.println(ans);
 
     }
+
     static boolean checkIfPangram(String sentence) {
         boolean[] seen = new boolean[26];
         for(char c:sentence.toCharArray()){

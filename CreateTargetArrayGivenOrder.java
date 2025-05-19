@@ -11,6 +11,7 @@ public class CreateTargetArrayGivenOrder {
         int[] target=CreateArray(nums,index);
         System.out.println(Arrays.toString(target));
     }
+
     static int[] CreateArray(int[] nums,int[] index){
            int[] target =new int[nums.length];
            int size=0;

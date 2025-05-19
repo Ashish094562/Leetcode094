@@ -23,6 +23,7 @@ public class CountItemsMatchingRule {
         System.out.println(count); // Expected output: 1
     }
 
+
     static int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
         int index = switch (ruleKey) {
             case "color" -> 1;

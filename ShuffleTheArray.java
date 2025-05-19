@@ -9,6 +9,7 @@ public class ShuffleTheArray {
         int[] ans = shuffle(nums,n);
         System.out.println(Arrays.toString(ans));
     }
+
     static int[] shuffle(int[] nums, int n) {
         if(nums==null || nums.length==0){
             return new int[0];

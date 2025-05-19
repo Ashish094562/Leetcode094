@@ -10,6 +10,7 @@ public class NumberAreSmallerThanCurrentNumber {
         int[] res= SmallerNumbers(nums);
         System.out.println(Arrays.toString(res));
     }
+
     static int[] SmallerNumbers(int[] nums){
         int count=0;
         int[] sort=nums.clone();

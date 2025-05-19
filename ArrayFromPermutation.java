@@ -8,6 +8,7 @@ public class ArrayFromPermutation {
         int[] ans=buildArray(nums);
         System.out.println(Arrays.toString(ans));
     }
+
     static int[] buildArray(int[] nums){
         if(nums.length!=0) {
             int[] ans = new int[nums.length];

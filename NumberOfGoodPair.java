@@ -7,6 +7,7 @@ public class NumberOfGoodPair {
     public static void main(String[] args) {
 
     }
+
     static int numIdenticalPairs(int[] nums) {
         Map<Integer,Integer> freq= new HashMap<>();
         int count=0;

@@ -5,7 +5,6 @@ public class PeakIndexInaMountainArray {
         int[] arr ={0,2,1,0};
         System.out.println(peakIndexInMountainArray(arr));
     }
-
     static int peakIndexInMountainArray(int[] arr) {
         int start =0;
         int end = arr.length-1;
